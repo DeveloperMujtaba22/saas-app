@@ -7,8 +7,13 @@
 :root {
   --primary: oklch(0.205 0 0);
 
+  /* Nature-inspired accent colors */
   --cta: #2c2c2c;
-  --cta-gold: #fccc41;
+  --cta-gold: #F1DCA7;  /* Updated to desert sand for nature theme */
+  --accent-nature: #A8DADC; /* Ocean mist */
+  --accent-earth: #E8B4A0;  /* Terracotta */
+  --accent-sage: #B8C9B8;   /* Forest moss */
+  
   --radius: 0.625rem;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -48,6 +53,9 @@
   --color-primary: var(--primary);
   --color-cta: var(--cta);
   --color-cta-gold: var(--cta-gold);
+  --color-accent-nature: var(--accent-nature);
+  --color-accent-earth: var(--accent-earth);
+  --color-accent-sage: var(--accent-sage);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-bricolage: "Bricolage Grotesque", sans-serif;
